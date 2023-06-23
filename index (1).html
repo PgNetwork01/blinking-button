@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+      body {
+         background-color: black;
+      }
+      .btn {
+         padding: 8px 20px;
+         color: white;
+         text-decoration: none;
+         animation: button 6s infinite;
+         border-radius: 5px;
+      }
+      
+      @keyframes button {
+         
+         0% {background-color: black;}
+         50% {background-color: purple;
+            box-shadow: 0 4px 8px 0 rgba(150, 0, 255, 0.5), 0 6px 20px 0 rgba(150, 0, 255, 0.5);
+         }
+         100% {background-color: black;}
+      }
+      </style>
+   </head>
+   <body>
+      <!-- How to create a blinking button -->
+      
+      <a href="#" class="btn">Subscribe</a>
+   </body>
+</html>
+
+<!-- change the speed of blinking by changing 6s to any s-->
